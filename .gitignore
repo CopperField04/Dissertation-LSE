@@ -1,0 +1,19 @@
+# Ignore everything by default
+*
+
+# Un-ignore the Code folder and its contents
+!Code/
+!Code/**
+
+# Un-ignore this file itself and a README
+!.gitignore
+!README.md
+
+# Re-block junk that lives inside Code/
+Code/**/__pycache__/
+Code/**/.ipynb_checkpoints/
+Code/**/*.pyc
+Code/**/*.parquet
+Code/**/*.csv
+Code/**/*.pkl
+Code/**/*.pt
